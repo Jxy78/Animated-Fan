@@ -1,0 +1,120 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url("./breeze.gif") */
+}
+
+.container{
+    height: 460px;
+    width: 460px;
+    position:absolute;
+    background-image: linear-gradient(black,grey,black);
+     left: 50%;
+    top: 40%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid grey;
+    }
+
+.box{
+    height: 225px;
+    width: 175px;
+    background-image: linear-gradient(to left,black,grey,black);
+    position: absolute;
+    border-radius:14% 86% 85% 15% / 54% 69% 21% 46%  ;
+    transform: rotate(-27deg);
+    overflow: hidden;
+    border: none;
+    left: 35%;
+    top: -10px;
+     box-shadow: -3px -10px 10px 1px grey; 
+                }
+     .box1{
+    height: 225px;
+    width: 175px;
+    background-image: linear-gradient(to left,black,grey,black);
+    position: absolute;
+    border-radius:14% 86% 85% 15% / 54% 69% 21% 46%;
+    overflow: hidden;
+    left: 51%;
+    top: 38%;
+    rotate: 87deg;
+     box-shadow: -3px -10px 10px 1px grey; 
+    }
+    .box2{
+    height: 225px;
+    width: 175px;
+    background-image: linear-gradient(to left,black,grey,black);
+    position: absolute;
+    border-radius:14% 86% 85% 15% / 54% 69% 21% 46%; 
+    transform: rotate(220deg);
+    overflow: hidden;
+    top: 29%;
+    left: 3.5%;
+    box-shadow: -3px -10px 10px 1px grey; 
+    } 
+.ball{
+    position: relative;
+    height: 75px;
+    width: 135px;
+    border-radius: 70%;
+    top: 80%;
+    left: 40px;
+    background-color: white;
+    transform: rotate(-30deg);
+    border: none;
+}
+.cen{
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 39.55%;
+    top: 39.55%;
+}
+.dappa{
+    height: 430px;
+    width: 430px;
+    left: 15px;
+    top: 15px;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid grey;
+    animation: thirupu 0.0s linear infinite;
+}
+
+@keyframes thirupu {
+     0%{
+        rotate: 10deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.jar{
+    position: relative;
+    height: 100px;
+    width: 600px;
+    margin-top: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    font-size: 30px;
+    background-color: rgb(190, 188, 188);
+    box-shadow: -5px -5px 5px 5px white,inset 5px 5px 5px 5px rgb(29, 29, 29),5px 5px 10px 5px rgb(5, 5, 5) ;
+}
+button:active{
+    font-size: 25px;
+    box-shadow: -5px -5px 5px 5px white,inset 5px 5px 5px 5px rgb(29, 29, 29),inset -5px -5px 5px 5px rgb(29, 29, 29) ,5px 5px 10px 5px rgb(5, 5, 5) ;;
+}
